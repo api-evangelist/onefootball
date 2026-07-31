@@ -1,8 +1,25 @@
 aid: onefootball
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onefootball.png
 name: Onefootball
-description: 'Onefootball is a company surfaced as a portfolio company of earlybird, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Onefootball is a Berlin-based digital football (soccer) media platform
+  that aggregates news, live scores, match coverage, video highlights, and streaming
+  (OneFootball TV) for a global audience across iOS, Android, and the web. Backed by
+  Earlybird and Union Square Ventures, the company partners with clubs, leagues, and
+  publishers to distribute content and operates an official merchandise store and a
+  Web3/club ecosystem. Onefootball does not publish a public developer API or partner
+  developer portal; content ingestion for partners is handled via WordPress REST and
+  private editorial integrations rather than an open, documented API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/onefootball/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Football
+- Soccer
+- Sports
+- Media
+- News
+- Streaming
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://onefootball.com
+- type: Support
+  url: https://onefootballsupport.zendesk.com/hc/en-us
+- type: TermsOfService
+  url: https://static.onefootball.com/legal/terms-of-use/en
+- type: PrivacyPolicy
+  url: https://static.onefootball.com/legal/app-privacy-policy/en
+- type: GitHubOrganization
+  url: https://github.com/Onefootball
+- type: DomainSecurity
+  url: security/onefootball-domain-security.yml
+- type: WellKnown
+  url: well-known/onefootball-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
